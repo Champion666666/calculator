@@ -20,7 +20,7 @@ void Widget::on_Button_clicked()
     float value;
     bool ok;
     num = ui->lineEdit->text();
-    value=num.toFloat(&ok);
+
     value=value*value*3.1415926;
     ui->label->setText(display.setNum(value));
 }
